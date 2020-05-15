@@ -10,22 +10,18 @@ console.log(array.shift());
 console.log(array);
 
 // Unshift
-console.log(array.unshift('Debajit'));
+console.log(array.unshift("Debajit"));
 
 console.log(array);
 
 // end
 
-array.push('Semikha');
+array.push("Semikha");
 
 console.log(array);
 
 // middle
 
-array.splice(2, 1, 'Something');
+array.splice(2, 1, "Something");
 
 console.log(array);
-
-
-
-
